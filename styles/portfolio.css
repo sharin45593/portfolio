@@ -20,6 +20,9 @@ nav li{
     list-style: none;
     margin-left: 50px;
 }
+section{
+    margin-top: 130px;
+}
 .header{
     background-color:#f1c098;
     background-image: url('../images/header_bg.png'),url('../images/developer.png');
@@ -72,25 +75,26 @@ main{
     margin: 0 auto;
 }
 .about{
- margin-top: 130px;
- background: rgb(226, 218, 218);
- border-radius: 10px;
- padding: 130px 150px;
-  text-align: center;
+
+    background: rgb(226, 218, 218);
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
 }
 .section-title{
- margin-bottom: 30px ;
- font-weight: 700;
-font-size: 35px;
-line-height: 48px;
+    text-align: center;
+    margin-bottom: 30px ;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
 }
 .section-description{
-font-weight: 400;
-font-size: 18px;
-line-height: 30px;
-text-align: center;
-color: #757575;
-margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 30px;
 }
 .about-info-container{
     display: flex;
@@ -106,4 +110,83 @@ margin-bottom: 30px;
     font-weight: 200px;
     color: #FD6E0A;
     
+}
+.what-i-do{
+    margin-top: 130px;
+}
+.skils-container{
+    display: flex;
+    gap:24px;
+ 
+}
+.skill{
+    background: #f1c098;
+    box-shadow: 0px 6px 50px rgb(226, 218, 218);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skil-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-descreiption{
+    font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+/* or 175% */
+
+
+/* Dark 03 */
+
+color: #757575;
+}
+.resume-contant{
+    display: flex;
+    gap: 24px;
+  
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume.title{
+ color: #757575;
+ font-weight: 700;
+ font-size: 30px;
+ margin-bottom: 10px;
+}
+.resume.sub-title{
+ color: #757575;
+ font-weight: 600;
+ font-size: 20px;
+ margin-bottom: 30px;
+
+}
+.resume.description{
+    color: #181818;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    background: rgb(237, 234, 234);
+    padding: 130px 200px;
+}
+.contact.section-title{
+    text-align: left;
+}
+.contact input[type="text"]{
+    margin-bottom: 30px;
+    border: 0;
+    width: 100%;
+    padding-left:18px  30px;
+
+}
+input{
+    height: 64px;
 }
